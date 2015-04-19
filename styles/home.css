@@ -1,0 +1,48 @@
+@charset "utf-8";
+body {
+	background-color: hsla(0,0%,63%,0.40);
+	margin: 0;
+	padding: 0;
+}
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  
+}
+ul {
+    list-style: none;
+
+}
+ul #menu_item {
+	 float: left;
+     width: 16.66666666%;
+     text-align: center;
+     line-height: 100%;
+}
+ul #menu_item a {
+	font-family: open-sans;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	display: block;
+	color: #FFFFFF;
+	background-color: #4B4B4B;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: large;
+}
+ul #menu_item a:hover{
+	color: #C3C3C3;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+ul #menu_item ul{
+	display: none;
+}
+ul #menu_item:hover ul{
+    display: block; /* display the dropdown */
+	padding:0;
+}
