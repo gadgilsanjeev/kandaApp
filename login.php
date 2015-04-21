@@ -1,39 +1,6 @@
 <?php  
 session_start();//session starts here  
   
-?>  
-  
-  
-  
-<html>  
-<head lang="en">  
-    <meta charset="UTF-8">  
-    <link href="styles/login.css" rel="stylesheet" type="text/css">
-    <title>Login</title>  
-</head>  
-<style>  
-    .login-panel {  
-        margin-top: 150px;  
-  
-</style>  
-  
-<body>
-<form method="post">
-<div class="div" id="div">
-<label for="textfield"></label>
-<input type="text" name="username" id="textfield" placeholder="Username">
-<label for="textfield2"></label>
-<input type="password" name="pass" id="textfield" placeholder="Password">
-<button type="submit" name="login" value="login" class="btn">Login</button>
-<br>
-<a id="link-signup" href="forgotPassword.html">Forgot password?</a>
-</form>
-</body>
-  
-</html>  
-  
-<?php  
-  
 $username="root";$password="rootforyou";$database="kanda_test";
 mysql_connect(localhost,$username,$password);
 @mysql_select_db($database) or die("Unable to connect to database<br>");
